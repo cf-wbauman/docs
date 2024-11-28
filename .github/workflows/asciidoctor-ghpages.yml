@@ -1,0 +1,17 @@
+name: Build and Deploy AsciiDoc to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Build and Deploy with Asciidoctor
+        uses: manoelcampos/asciidoctor-ghpages-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
