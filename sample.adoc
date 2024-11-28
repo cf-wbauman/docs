@@ -7,7 +7,9 @@ Let's put some text here. And maybe some bullet points:
 * point three
 * point four
 
-NOTE: Sample note goes here.
+NOTE: The sample note goes here.
+
+The YAML syntax below:
 
 [source,yaml]
 ----
