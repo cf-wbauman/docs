@@ -1,0 +1,21 @@
+== A Sample Header
+
+Let's put some text here. And maybe some bullet points:
+
+* point one
+* point two
+* point three
+
+NOTE: Sample note goes here.
+
+[source,yaml]
+----
+topleve:
+  node:
+    leaf: foobar
+    value: 1234
+----
+
+=== Section Header
+
+And again, some text here.
