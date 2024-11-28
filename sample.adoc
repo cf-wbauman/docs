@@ -5,6 +5,7 @@ Let's put some text here. And maybe some bullet points:
 * point one
 * point two
 * point three
+* point four
 
 NOTE: Sample note goes here.
 
